@@ -16,6 +16,7 @@ public class FlyweightPatternDemo {
    public static void main(String[] args) {
 
       for(int i=0; i < 20; ++i) {
+         //使用享元的对象是同一个，但取值不同》
          Circle circle = (Circle) ShapeFactory.getCircle(getRandomColor());
          circle.setX(getRandomX());
          circle.setY(getRandomY());

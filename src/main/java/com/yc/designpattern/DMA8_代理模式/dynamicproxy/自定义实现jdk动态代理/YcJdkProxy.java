@@ -41,7 +41,7 @@ public class YcJdkProxy {
            fw.close();
 
            //3、把生成的.java文件编译成.class文件
-           //获取系统编译器
+           //获取系统编译器  javac
            JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
            //获取java文件管理器
            StandardJavaFileManager manage = compiler.getStandardFileManager(null,null,null);

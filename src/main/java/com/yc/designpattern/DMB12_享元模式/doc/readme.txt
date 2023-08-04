@@ -31,6 +31,7 @@
         s==a;    // true
         s.equals(a);  //true
     2、数据库的数据池
+        Map<String,Object>
     3、Apache Commons Pool2
 
 优点：大大减少对象的创建，降低系统的内存，使效率提高。

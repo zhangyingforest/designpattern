@@ -45,6 +45,7 @@ public class PanServer {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        //将文件存到文件系统
         fileSystem.put(file.fileMeta(), file);
         long endTime = System.currentTimeMillis();
         System.out.println(String.format("文件上传完成，共耗费 %s 毫秒\n", endTime - startTime));
